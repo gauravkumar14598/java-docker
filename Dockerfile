@@ -2,7 +2,7 @@ FROM amazoncorretto:17
 
 WORKDIR /app
 
-# COPY . .
+COPY . .
 
 RUN javac SplitTree.java
 
